@@ -1,0 +1,521 @@
+.post{
+    width:100%;
+    min-height: 100px;
+    margin-bottom: 30px;  
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.post .post-img{
+    height: 600px;
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.post-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:15px 0px 0px;
+}
+.like-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 28px;
+    color: orangered;
+    position: relative;
+    width: 100%;
+}
+.like-icons svg{
+    font-size: 34px;
+}
+.like-icons svg:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.post-like{
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.post-comment{
+    cursor: pointer;
+    margin-left:10px;
+    font-size: 18px;
+}
+.like-comment-details{
+    margin-top: 15px;
+    color: grey;
+}
+.post-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.post-user{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.post-user .p-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center; 
+}
+.post-user .datePara{
+    margin-left: 5px;
+    color:grey;
+    font-size: 16px;
+}
+.post-user h2{
+    padding:0px 7px;
+    font-weight:600;
+    font-size: 20px;
+    color: orangered;
+}
+.post-header p{
+    color: black;
+    font-size: 17px; 
+}
+.post .body{
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 29px;
+}
+.delete .post-vertical-icon{
+    font-size:34px;
+    cursor:pointer;
+}
+.delete-cmt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    z-index: 999;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    background-color: #fff;
+    padding: 10px;
+    width: 400px;
+}
+.delete button{
+    display:flex;
+    width: 100%;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color:transparent;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 13px;
+    align-items: center;
+}
+.delete svg{
+    font-size: 24px;
+}
+.delete button:hover{
+    background-color: #dedede;
+}
+.commentSection{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f3efef;
+    padding:15px 20px;
+}
+.sticky{
+    height: 280px;
+    overflow-y: scroll;
+   
+}
+.cmtGroup{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 10px; 
+}
+.cmtGroup input{
+    border: 1px solid grey;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 5px 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none; 
+   
+}
+.cmtGroup input:focus{
+    outline: 1px solid orangered;
+}
+.cmtGroup svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+.cmtGroup .emoji{
+    position:absolute;
+    z-index: 1;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    color: orangered;
+}
+.cmtGroup .send{
+    margin-left: 10px;
+    color: orangered;
+}
+.cmtGroup button{
+    border: none;
+    outline: none;
+}
+.social-buttons{
+  display: grid;
+  grid-template-columns:repeat(6,1fr);
+  border-radius:40px;
+  box-shadow: 0px 0px 32px -7px #00199f;
+  position:absolute;
+  bottom: -10px;
+  left: 200px;
+  padding:3px;
+  z-index: 300;
+  background-color: #fff;
+}
+
+  
+/* Helper class to divide the icons */
+.social-margin {
+  margin:10px 13px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.social-icon {
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 3px solid;
+  width: 45px;
+  height: 45px;
+  transition: all .2s;
+}
+
+.social-icon .social-links{
+    font-size: 23px;
+}
+  /* Facebook Button Styling */
+
+ .facebook {
+    border-color: #3b5998;
+    background-color: #3b5998;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  .facebook:hover {
+    background-color: #ffffff;
+    color: #3b5998;
+  }
+
+  /* Instagram Button Styling */
+
+  .instagram {
+    border-color: orangered;
+    background-color: orangered;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease .2s 1 normal forwards;
+  }
+  .instagram:hover {
+    background-color: #ffff;
+    color: orangered;
+  }
+ 
+  /* Linkedin Button Styling */
+  .linkedin {
+    background-color: #0976b4;
+    color: #ffffff;
+    border-color: #0976b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease .4s 1 normal forwards;
+  }
+  .linkedin :hover {
+    color:#ffff;
+  }
+
+  
+  /* Github Button Styling */
+ .github {
+    background-color: #4183c4;
+    color: #ffffff;
+    border-color: #4183c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease .6s 1 normal forwards;
+    
+  }
+  .github:hover {
+    background-color: #ffffff;
+    color: #4183c4;
+  }
+
+  /* Youtube Button Styling */
+  .youtube {
+    background-color: #bb0000;
+    color: #ffffff;
+    border-color: #bb0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease .8s 1 normal forwards;
+  }
+  .youtube  :hover {
+    color: #ffffff;
+  }
+  
+
+
+  /* Twitter Button Styling */
+.twitter {
+    border-color: #55acee;
+    background-color: #55acee;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: myAnim 2s ease 1s 1 normal forwards;
+  }
+  .twitter:hover {
+    background-color: #ffffff;
+    color: #55acee;
+  }
+
+  @keyframes myAnim {
+    
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-10px)scale(1.5)rotate(360deg);
+
+	}
+    10%{
+        animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-30px);
+    }
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function:ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-in;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+@media screen and (max-width:430px){
+    .post{
+        width:100%;
+        min-height: 100px;
+        padding: 15px 10px 5px 10px;
+        margin-bottom: 35px;
+        margin-top: -20px;
+    }
+    .post .post-img{
+        height: 330px;
+    }
+    .post-footer{
+        margin:8px 0px;
+        background-color:rgb(255, 255, 255);
+    }
+    .like-comment-details{
+        margin-top: 10px;
+        color: grey;
+    }
+    .like-icons svg{
+        font-size: 28px;
+    }
+    .post-like{
+        font-size: 15px;
+    }
+    .post-comment{
+        font-size: 15px;
+    }
+    .post .body{
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 0px 5px;
+    }
+    .post-header{
+        margin-bottom: 15px;
+    }
+    .post-user .datePara{
+        font-size: 14px;
+    }
+    .post-user h2{
+        font-size: 19px;
+    }
+    .delete .post-vertical-icon{
+        font-size:30px;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        z-index: 999;
+        border-radius: 10px;
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        background-color: #fff;
+        padding: 10px;
+        width: 270px;
+    }
+    .delete svg{
+        font-size: 22px;
+    }
+    .delete button{
+        padding: 10px 0px;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .commentSection{
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #f3efef;
+        padding:10px;
+    }
+    .sticky{
+        height: 240px;
+    }
+    .cmtGroup{
+        margin-bottom: 20px;
+        gap: 0;
+    }
+    .cmtGroup input{
+        height: 42px;
+        padding: 5px 50px 5px 46px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    .cmtGroup svg{
+        font-size: 26px;
+    }
+    .cmtGroup .emoji{
+        left: 20px;
+    }
+    .cmtGroup .send{
+        position:absolute;
+        z-index: 1;
+        top: 50%;
+        right: -5px;
+        transform: translate(-50%,-50%);
+    }
+    .social-buttons{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        border-radius:10px;
+        position:absolute;
+        bottom: 0px;
+        left: 150px;
+        padding:0px;
+      }
+      .social-icon {
+        border: 1px solid;
+        width: 40px;
+        height: 40px;
+      }
+      .social-icon .social-links{
+        font-size: 20px;
+      }
+      .social-margin {
+        margin: 8px;
+      }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .post{
+        width:100%;
+        min-height: 300px;
+        margin-bottom: 10px;  
+        padding: 15px 10px 15px 10px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    .post .post-img{
+        height: 300px;
+    }
+}

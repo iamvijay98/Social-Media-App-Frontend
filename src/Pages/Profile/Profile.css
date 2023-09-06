@@ -1,0 +1,19 @@
+.interface{
+    width: 100%;
+}
+@media screen and (max-width:430px){
+    .home{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr;
+        padding: 0px 3px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+}

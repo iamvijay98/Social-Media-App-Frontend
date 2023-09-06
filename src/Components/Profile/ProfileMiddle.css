@@ -1,0 +1,10 @@
+@media screen and (max-width:430px){
+    .profileMiddle{
+       margin-bottom: 48px;
+    }
+}
+@media screen and (max-width:768px){
+    .profileMiddle{
+       margin-bottom: 62px;
+    }
+}

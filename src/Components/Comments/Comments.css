@@ -1,0 +1,92 @@
+.overAllCommentList{
+    margin-bottom: 30px;
+    
+}
+.commentList{
+    display: flex;
+    justify-content: space-between;
+}
+.commentHead{
+    display: flex;
+    gap: 15px;
+}
+.commentList .commentList1{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+.commentList .commentList1 .commentHead span{
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.commentList .commentList1 .commentHead p{
+    line-height: 23px;
+}
+.commentList .commentList1 img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.commentList2{
+    flex: .5;
+}
+.commentList2 p{
+    text-align: end;
+    color: orangered;
+}
+
+.commentFooter{
+    display: flex;
+    gap: 15px;
+    padding-left: 60px;
+    color: grey;
+    padding-top: 8px;
+    font-size: 15px;
+}
+.commentFooter h4{
+    font-weight: 500;
+}
+@media screen and (max-width:430px){
+    .overAllCommentList{
+        margin-bottom: 20px;
+    }
+    .commentHead p{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .commentList .commentList1 .commentHead span{
+        font-size: 18px;
+        padding-right: 0px;
+        font-weight:500;
+    }
+    .commentList .commentList1 img{
+        width: 35px;
+        height: 35px;
+    }
+    .commentHead{
+        gap: 10px;
+    }
+    .commentList2{
+        flex: .3;
+    }
+    .commentList2 p{
+        text-align: end;
+        color: orangered;
+    }
+    .commentFooter{
+        padding-left: 45px;
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    .commentList2 svg{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,91 @@
+.R-Side{
+    height: 100vh;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:0px 0px 150px 0px;
+    margin-bottom: 150px;
+    position: sticky;
+    top: 108px;
+    overflow: scroll;
+}
+.closeBurger{
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+    top: 10px;
+    opacity: 0;
+}
+
+@media screen and (max-width:1024px){
+    .R-Side{
+        height: 100vh;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding:0px 0px 150px 0px;
+        margin-bottom: 150px;
+        position: sticky;
+        top: 80px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .R-Side{
+        background-color: #fff;
+        z-index: 1000;
+    }
+    .R-Side.active{
+        width: 60%;
+        height: 100%;
+        position: fixed;
+        top: -10px;
+        transform: translateX(65%);
+        border-radius: 0px;
+        transition: .3s;
+        overflow: scroll;
+    }
+    .R-Side.unActive{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -90px;
+        transform: translateX(100%);
+        border-radius: 0px;
+        transition: .3s;
+    }
+    .closeBurger{
+        opacity: 1;
+        font-size: 40px;
+        right: 10px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .R-Side{
+        background-color: #fff;
+        z-index: 1000;
+    }
+    .R-Side.active{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: -10px;
+        transform: translateX(-5px);
+        border-radius: 0px;
+        transition: .4s;
+    }
+    .R-Side.unActive{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -90px;
+        transform: translateX(100%);
+        border-radius: 0px;
+        transition: .4s;
+    }
+    .closeBurger{
+        opacity: 1;
+        font-size: 35px;
+    }
+}

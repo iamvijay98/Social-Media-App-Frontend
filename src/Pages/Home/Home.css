@@ -1,0 +1,41 @@
+.interface{
+    width: 100%;
+}
+.home{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.2fr;
+    column-gap: 20px;
+    background-color:rgb(240, 242, 245);
+    padding: 0px 10px;
+    position: relative;
+}
+@media screen and (max-width:1024px){
+    .home{
+        width: 100%;
+        column-gap: 5px;
+        grid-template-columns: 20% 50% 30%;
+        padding: 0px 20px 0px 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr;
+        padding: 0px 10px 0px 10px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:430px){
+    .home{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr;
+        padding: 0px 3px;
+        overflow: hidden;
+    }
+}

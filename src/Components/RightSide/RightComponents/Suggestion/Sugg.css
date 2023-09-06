@@ -1,0 +1,88 @@
+.Sugg-comp{
+    width: 100%;
+    min-height: 200px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.Sugg-comp h2{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: 500;
+}
+.s-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.s-left img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.sugg-people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 4px;
+}
+.s-left h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.s-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.s-right button{
+    padding: 5px 10px;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.s-right button:hover{
+    border: 2px solid orangered;
+    background-color: transparent;
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .Sugg-comp{
+        width: 100%;
+        min-height: 100px;
+        padding: 10px 8px 10px 8px;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    .Sugg-comp h2{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .sugg-people{
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+        gap: 20px;
+    }
+    .s-left img{
+        width: 40px;
+        height: 40px;
+    }
+    .s-left h3{
+        font-size: 13px;
+    }
+    .s-right button{
+        border-radius: 3px;
+        font-size: 12px;
+    }
+}

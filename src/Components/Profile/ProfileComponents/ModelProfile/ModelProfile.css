@@ -1,0 +1,53 @@
+.modelForm{
+    margin-top: 20px;
+}
+
+.row1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.modelForm .inputBox1{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 50px;
+}
+.modelForm .inputBox1 input{
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+.modelForm .inputBox1 input:focus{
+    border: 1px solid orangered;
+}
+.modelBtn{
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.modelBtn:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: black;
+}
+@media screen and (max-width:430px){
+    .modelForm{
+        margin-top: 10px;
+    }
+    .row1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    
+}

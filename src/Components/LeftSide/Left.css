@@ -1,0 +1,190 @@
+.L-features{
+    background-color: #ffffff;
+    height: 460px;
+    padding:10px 10px 150px 10px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    position: sticky;
+    top: 110px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#L-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px; 
+}
+#L-box .margin{
+    font-size: 27px;
+}
+#L-box span{
+    font-size: 17px;
+    display:block;
+    margin-left: -10px;
+}
+#L-box:hover{
+    background-color: rgb(232, 129, 91);
+    transition: .4s;
+    cursor: pointer;
+    color: #fff;
+}
+#L-box.active{
+    font-weight: 500;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+    color: #fff;
+}
+#L-box.active p{
+    background-color: #fff;
+    color: black;
+}
+#L-box .notifi{
+    position: relative;
+}
+
+#L-box p{
+    position:absolute;
+    top: 0px;
+    left: 22%;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    background-color:orangered;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.left-user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    cursor: pointer;
+    position: relative;
+}
+.left-user .user-name-userid{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left-user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.user-name-userid h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+.user-name-userid span{
+    font-size: 15px;
+}
+.left-user .vert{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.logOutExitContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    right: 0px;
+    bottom: 60px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 10px;
+}
+.logOutExitContainer button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-weight: 600;
+}
+.logOutExitContainer button:hover{
+    background-color: #dedede;
+}
+
+
+@media screen and (max-width:1024px){
+    .L-features{
+        background-color: #ffffff;
+        height: 370px;
+        padding:5px 5px 400px 5px;
+        margin-top:10px;
+        border-radius: 10px;
+        position: sticky;
+        top: 80px;
+    }
+    #L-box{
+        margin-bottom: 8px;
+        padding: 10px 8px;
+        border-radius: 10px;
+    }
+    #L-box .margin{
+        font-size: 22px;
+    }
+    #L-box span{
+        font-size: 14px;
+        margin-left: -17px;
+    }
+    .left-user img{
+        width: 40px;
+        height: 40px;
+    }
+    .user-name-userid h1{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .user-name-userid span{
+        font-size: 13px;
+        
+    }
+    .left-user .vert{
+        font-size: 30px;
+        margin-right: 0px;
+    }
+    .left-user .user-name-userid{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .logOutExitContainer{
+        border-radius: 5px;
+        padding: 5px;
+        gap: 1px;
+    }
+    .logOutExitContainer button{
+        font-size: 11px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .L-features{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px){
+    .L-features{
+        display: none;
+    }
+}

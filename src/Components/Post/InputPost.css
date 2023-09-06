@@ -1,0 +1,210 @@
+.i-form{
+    width: 100%;
+    min-height: 250px;
+    margin: 20px auto 30px;
+    padding: 5px 30px 30px 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.i-input-box{
+    width: 100%;
+    position: relative;
+}
+.i-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+}
+#i-input{
+    width: 100%;
+    height: 120px;
+    padding: 0px 70px;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(214, 205, 205);
+    outline: none;
+    font-size: 20px;
+    background-color: transparent; 
+}
+
+.file-upload{
+    min-width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.file-upload .file-icons{
+    display: flex;
+    gap: 70px;
+    flex: 1.5;
+}
+.file-upload button{
+    padding: 15px 60px;
+    border-radius: 40px;
+    border:none;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.photo-icon{
+    color: red;
+}
+.pv-upload{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.photo-dis{
+    font-weight: 500;
+    padding: 0px 4px;
+}
+.displayImg{
+    width: 55%;
+    height: 250px;
+    position: relative;
+    padding: 13px;
+    border: 1px solid #dedede;
+    margin-top: 30px;
+    border-radius:10px ;
+}
+.displayImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.displayImg svg{
+    position:absolute;
+    right:3px;
+    top:3px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+}
+@media screen and (max-width:430px){
+    .i-form{
+        width: 100%;
+        min-height: 100px;
+        margin: 5px auto 10px;
+        padding: 5px 15px 15px 15px;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    #i-input{
+        font-size: 16px;
+        height: 90px;
+        padding: 0px 20px 0px 60px;
+    }
+    .file-upload{
+        margin-top: 20px;
+    }
+    .file-upload button{
+        padding: 10px 30px;
+        border-radius: 5px;
+        background-color:orangered;
+        color: #fff;
+        font-size: 16px;
+    }
+    .photo-dis{
+        display: none;
+    }
+    .pv-upload .input-svg{
+        width: 30px;
+    }
+    .file-upload .file-icons{
+        display: flex;
+        gap: 20px;  
+    }
+    .i-img{
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        left: -5px;
+        transform: translateY(-50%);
+    }
+    .displayImg{
+        width: 100%;
+        height: 200px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:768px){
+    .file-upload .file-icons{
+        display: flex;
+        gap: 20px; 
+        
+    }
+    .i-form{
+        margin: 10px auto 30px;
+        min-height: 190px;
+       
+    }
+    .displayImg{
+        width: 80%;
+        height: 220px;
+        padding: 10px;
+        margin-top: 0px;
+}
+}
+@media screen and (max-width:1024px){
+    .i-form{
+        width: 100%;
+        margin: 10px auto 30px;
+        padding: 5px 15px 20px 15px;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    #i-input{
+        height: 90px;
+        padding: 0px 10px 0px 60px;
+        border-bottom: 2px solid rgb(214, 205, 205);
+        font-size: 18px;
+    }
+    .file-upload{
+        margin-top: 20px;
+    }
+    .file-upload .file-icons{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;  
+        flex: 0;
+    }
+    .file-upload button{
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .photo-dis{
+        font-weight: 500;
+        padding: 0px 4px;
+        font-size: 15px;
+    }
+    .i-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .displayImg{
+            width: 80%;
+            height: 220px;
+            padding: 10px;
+            margin-top: 10px;
+    }
+    
+}

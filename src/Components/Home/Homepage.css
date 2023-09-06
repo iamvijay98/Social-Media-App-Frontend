@@ -1,0 +1,25 @@
+.homepage{
+    width: 100%;
+    margin:20px auto;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width:430px){
+    .homepage{
+        margin:0px auto ;
+    }
+}
+@media screen and (max-width:768px){
+    .homepage{
+        margin:-20px auto ;
+    }
+}
+@media screen and (max-width:1024px){
+    .homepage{
+        width: 100%;
+        margin:-25px auto;
+        border-radius: 50px;
+    }
+    
+}

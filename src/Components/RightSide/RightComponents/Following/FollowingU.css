@@ -1,0 +1,105 @@
+.following-comp{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 15px 30px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.following-people{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+
+.following-people img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+.following-comp h2{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: 500;
+}
+.following-details{
+    display: flex;
+    gap: 8px;
+}
+.following-details h3{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.following-details p{
+    font-size:15px ;
+}
+.following-people button{
+    width: 100px;
+    padding:10px 0px;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.following-comp .SM-btn{
+    padding: 15px 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    margin-top: 20px;
+    color: orangered;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+@media screen and (max-width:1024px){
+    .following-comp{
+        padding: 10px 8px 10px 8px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    .following-people{
+        margin-bottom: 20px;
+    }
+    
+    .following-people img{
+        width: 40px;
+        height: 40px;
+    }
+    .following-comp h2{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .following-details{
+        display: flex;
+        gap: 8px;
+    }
+    .following-details h3{
+        font-size: 15px;
+    }
+    
+    .following-details p{
+        font-size:13px;
+    }
+    .following-people button{
+        width: 85px;
+        padding:10px 0px;
+        font-size: 12px;
+    }
+    
+    .following-comp .SM-btn{
+        padding: 0px;
+        font-size: 14px;
+        margin: 30px auto 10px;
+    }
+}
