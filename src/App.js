@@ -21,7 +21,7 @@ const App = () => {
       
         <Route path='/notification' element={<Notification />} />
 
-        <Route path='/' element={<Login />} />
+        <Route path='/Social-Media-App-Frontend' element={<Login />} />
 
         <Route path='/signup' element={<SignUp />} />
         
