@@ -229,7 +229,6 @@ const handleDelete=(id)=>{
               type="text" 
               id="commentInput"
               required
-              autoFocus
               placeholder='Add a comment...'
               onChange={(e)=>setCommentInput(e.target.value)}
               value={commentInput}

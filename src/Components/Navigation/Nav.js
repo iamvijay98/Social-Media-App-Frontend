@@ -28,7 +28,6 @@ const Nav = ({search,setSearch,showMenu,setShowMenu}) => {
           <input type="text" 
           placeholder='Search post'
           id='n-search'
-          autoFocus
           value={search}
           onChange={(e)=>setSearch(e.target.value)}
           />
