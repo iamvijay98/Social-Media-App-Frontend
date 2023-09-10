@@ -33,7 +33,7 @@
     font-size: 34px;
 }
 .like-icons svg:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: .3s;
 }
 
@@ -387,23 +387,31 @@ a:active {
     .post{
         width:100%;
         min-height: 100px;
-        padding: 15px 10px 5px 10px;
+        padding: 15px 0px 5px 0px;
         margin-bottom: 35px;
         margin-top: -20px;
+        background-color: rgb(255, 255, 255);
     }
     .post .post-img{
         height: 330px;
+        border-radius: 0px;
     }
     .post-footer{
-        margin:8px 0px;
+        margin:8px 8px;
         background-color:rgb(255, 255, 255);
+    }
+    .body{
+        margin: 0px 8px;
     }
     .like-comment-details{
         margin-top: 10px;
         color: grey;
     }
+    .like-icons{
+        gap: 20px;
+    }
     .like-icons svg{
-        font-size: 28px;
+        font-size: 25px;
     }
     .post-like{
         font-size: 15px;
@@ -413,21 +421,22 @@ a:active {
     }
     .post .body{
         margin-bottom: 15px;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 25px;
         padding: 0px 5px;
     }
     .post-header{
         margin-bottom: 15px;
+        padding: 0px 10px;
     }
     .post-user .datePara{
-        font-size: 14px;
+        font-size: 11px;
     }
     .post-user h2{
-        font-size: 19px;
+        font-size: 15px;
     }
     .delete .post-vertical-icon{
-        font-size:30px;
+        font-size:25px;
     }
     .options{
         display: flex;
@@ -440,16 +449,26 @@ a:active {
         position: absolute;
         top: 40px;
         right: 0px;
-        background-color: #fff;
-        padding: 10px;
-        width: 270px;
+        background-color: #ffffff;
+        padding: 5px 8px; 
+        width: 260px;
     }
     .delete svg{
         font-size: 22px;
     }
     .delete button{
-        padding: 10px 0px;
+        padding: 8px 0px;
         font-weight: 600;
+        font-size: 11px;
+    }
+    .post-like{
+        margin-left: 5px;
+        cursor: pointer;
+        font-size: 13px;
+    }
+    .post-comment{
+        cursor: pointer;
+        margin-left:10px;
         font-size: 13px;
     }
     .commentSection{

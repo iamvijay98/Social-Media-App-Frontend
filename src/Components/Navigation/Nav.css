@@ -229,19 +229,20 @@ nav{
 @media screen and (max-width:430px){
     nav{
         width: 100vw;
-        padding: 15px 0px;
-        gap: 13px;
+        padding: 10px 0px;
+        gap: 5px;
     }
     .n-logo{
         flex: 0;
     }
     .n-logo h1{
-        width: 113px;
+        width: 110px;
         font-size: 20px;
     }
     .n-img{
         width: 40px;
         border-radius: 50%;
+        margin-left: 8px;
     }
     #n-search{
         width: 100%;
@@ -261,13 +262,13 @@ nav{
         border: none;
     }
     .n-form svg{
-        font-size: 25px;
+        font-size: 23px;
     }
     .search-icon{
         left: 5px;
     }
     ::placeholder{
-        font-size: 16px;
+        font-size: 14px;
     }
     .social-icons .nav-icons{
         width: 26px;
@@ -281,7 +282,7 @@ nav{
         color: #fff;
         display: flex;
         justify-content: space-around;
-        padding: 15px 0px;
+        padding: 6px 0px;
         align-items: center;
         opacity: 1;
     }

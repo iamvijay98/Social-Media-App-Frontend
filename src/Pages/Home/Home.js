@@ -1,4 +1,4 @@
-import {  useEffect, useState } from 'react'
+import {  useState } from 'react'
 import Profile from "../../assets/profile.jpg"
 import img1 from "../../assets/Post Images/img1.jpg"
 import img2 from "../../assets/Post Images/img2.jpg"

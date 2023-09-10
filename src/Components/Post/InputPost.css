@@ -4,7 +4,7 @@
     margin: 20px auto 30px;
     padding: 5px 30px 30px 30px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .i-input-box{
@@ -95,73 +95,8 @@
     color: #fff;
     border-radius: 50%;
 }
-@media screen and (max-width:430px){
-    .i-form{
-        width: 100%;
-        min-height: 100px;
-        margin: 5px auto 10px;
-        padding: 5px 15px 15px 15px;
-        border-radius: 10px;
-        background-color: #ffffff;
-    }
-    #i-input{
-        font-size: 16px;
-        height: 90px;
-        padding: 0px 20px 0px 60px;
-    }
-    .file-upload{
-        margin-top: 20px;
-    }
-    .file-upload button{
-        padding: 10px 30px;
-        border-radius: 5px;
-        background-color:orangered;
-        color: #fff;
-        font-size: 16px;
-    }
-    .photo-dis{
-        display: none;
-    }
-    .pv-upload .input-svg{
-        width: 30px;
-    }
-    .file-upload .file-icons{
-        display: flex;
-        gap: 20px;  
-    }
-    .i-img{
-        width: 50px;
-        border-radius: 50%;
-        position: absolute;
-        z-index: 100;
-        top: 50%;
-        left: -5px;
-        transform: translateY(-50%);
-    }
-    .displayImg{
-        width: 100%;
-        height: 200px;
-        padding: 5px;
-    }
-}
-@media screen and (max-width:768px){
-    .file-upload .file-icons{
-        display: flex;
-        gap: 20px; 
-        
-    }
-    .i-form{
-        margin: 10px auto 30px;
-        min-height: 190px;
-       
-    }
-    .displayImg{
-        width: 80%;
-        height: 220px;
-        padding: 10px;
-        margin-top: 0px;
-}
-}
+
+
 @media screen and (max-width:1024px){
     .i-form{
         width: 100%;
@@ -206,5 +141,76 @@
             padding: 10px;
             margin-top: 10px;
     }
-    
+}
+@media screen and (max-width:768px){
+    .file-upload .file-icons{
+        display: flex;
+        gap: 20px; 
+        
+    }
+    .i-form{
+        margin: 10px auto 30px;
+        min-height: 190px;
+       
+    }
+    .displayImg{
+        width: 80%;
+        height: 220px;
+        padding: 10px;
+        margin-top: 0px;
+}
+}
+@media screen and (max-width:430px){
+    .i-form{
+        width: 100%;
+        min-height: 100px;
+        margin: 0px auto 40px;
+        padding: 5px 15px 15px 15px;
+        border-radius: 0px;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid #efefef;
+    }
+    #i-input{
+        font-size: 13px;
+        height: 75px;
+        padding: 0px 20px 0px 60px;
+    }
+    .i-input-box ::placeholder{
+        font-size: 13px;
+    }
+    .file-upload{
+        margin-top: 10px;
+    }
+    .file-upload button{
+        padding: 5px 20px;
+        border-radius: 5px;
+        background-color:orangered;
+        color: #fff;
+        font-size: 15x;
+    }
+    .photo-dis{
+        display: none;
+    }
+    .pv-upload .input-svg{
+        width: 24px;
+    }
+    .file-upload .file-icons{
+        display: flex;
+        gap: 20px;  
+    }
+    .i-img{
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        left: -5px;
+        transform: translateY(-50%);
+    }
+    .displayImg{
+        width: 100%;
+        height: 200px;
+        padding: 5px;
+        margin-top: 10px;
+    }
 }

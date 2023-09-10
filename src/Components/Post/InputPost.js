@@ -5,7 +5,7 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import PlayCircleFilledOutlinedIcon from '@mui/icons-material/PlayCircleFilledOutlined';
 import KeyboardVoiceRoundedIcon from '@mui/icons-material/KeyboardVoiceRounded';
 import {FaSmile} from "react-icons/fa"
-import { useState } from "react";
+
 
 
 const InputPost = ({handleSubmit,

@@ -60,10 +60,10 @@
     .commentHead p{
         display: flex;
         flex-direction: column;
-        font-size: 15px;
+        font-size: 13px;
     }
     .commentList .commentList1 .commentHead span{
-        font-size: 18px;
+        font-size: 15px;
         padding-right: 0px;
         font-weight:500;
     }
@@ -84,9 +84,9 @@
     .commentFooter{
         padding-left: 45px;
         padding-top: 5px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .commentList2 svg{
-        font-size: 22px;
+        font-size: 18px;
     }
 }

@@ -14,7 +14,7 @@
 @media screen and (max-width:1024px){
     .home{
         width: 100%;
-        column-gap: 5px;
+        
         grid-template-columns: 20% 50% 30%;
         padding: 0px 20px 0px 10px;
     }
@@ -35,7 +35,8 @@
         width: 100%;
         display:grid;
         grid-template-columns: 1fr;
-        padding: 0px 3px;
+        padding: 0px 0px;
         overflow: hidden;
+        background-color: #ffffff
     }
 }

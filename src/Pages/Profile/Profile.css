@@ -6,7 +6,7 @@
         width: 100%;
         display:grid;
         grid-template-columns: 1fr;
-        padding: 0px 3px;
+        padding: 0px;
     }
 }
 
