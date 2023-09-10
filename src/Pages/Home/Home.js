@@ -190,12 +190,6 @@ const Home = ({setFriendsProfile}) => {
            }
         ]
       )
-      
-      useEffect(() => {
-        window.addEventListener('popstate', (e) => {
-          window.history.go(1);
-        });
-      }, []);
 
       const [body,setBody] =useState("")
       const [importFile,setImportFile] =useState("")
