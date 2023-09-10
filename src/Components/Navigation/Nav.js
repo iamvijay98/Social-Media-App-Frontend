@@ -26,7 +26,7 @@ const Nav = ({search,setSearch,showMenu,setShowMenu}) => {
         <form className='n-form' onSubmit={(e)=>e.preventDefault()} >
           <SearchIcon className='search-icon'/>
           <input type="text" 
-          placeholder='Search post'
+          placeholder='Search posts'
           id='n-search'
           value={search}
           onChange={(e)=>setSearch(e.target.value)}
