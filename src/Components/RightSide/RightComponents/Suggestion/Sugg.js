@@ -3,7 +3,7 @@ import Simg1 from "../../../../assets/Suggestion/img-1.jpg"
 import Simg2 from "../../../../assets/Suggestion/img-2.jpg"
 import "../Suggestion/Sugg.css"
 
-const Sugg = ({following,setFollowing}) => {
+const Sugg = () => {
   return (
     <div className="Sugg-comp">
       <h2>Suggestion For You</h2>

@@ -17,6 +17,10 @@
 }
 .container-form h1{
     font-weight: 500;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+    color:rgba(0, 0, 0, 0);
+    -webkit-background-clip:text; 
+    background-clip:text; 
 }
 .container-form p{
    color: grey;
@@ -62,7 +66,7 @@
     font-size: 19px;
     border: none;
     border-radius: 5px;
-    background-color:  rgb(191, 116, 89);
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
     cursor: pointer;
 }
 .FG{
@@ -97,6 +101,9 @@
         border-radius: 10px;
         padding: 20px 30px 0px 30px;
         box-shadow:none;
+    }
+    .inputBox input{
+        padding: 5px 35px;
     }
    
 }

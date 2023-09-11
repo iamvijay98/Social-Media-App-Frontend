@@ -229,7 +229,7 @@ nav{
 @media screen and (max-width:430px){
     nav{
         width: 100vw;
-        padding: 10px 0px;
+        padding: 8px 0px;
         gap: 5px;
     }
     .n-logo{
@@ -282,7 +282,7 @@ nav{
         color: #fff;
         display: flex;
         justify-content: space-around;
-        padding: 6px 0px;
+        padding: 5px 0px;
         align-items: center;
         opacity: 1;
     }

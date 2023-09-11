@@ -95,7 +95,7 @@ const InfoFriendPost = ({val}) => {
   const [socialIcons,setSocialIcons] = useState(false)
 
   return (
-    <div className='post' style={{marginBottom:"65px"}}>
+    <div className='post' style={{marginTop:"10px",marginBottom:"65px"}}>
     <div className='post-header'>
 
       <div className='post-user'>
@@ -189,7 +189,6 @@ const InfoFriendPost = ({val}) => {
             type="text" 
             id="commentInput"
             required
-            autoFocus
             placeholder='Add a comment...'
             onChange={(e)=>setCommentInput(e.target.value)}
             value={commentInput}

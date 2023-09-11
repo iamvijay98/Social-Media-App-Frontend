@@ -164,26 +164,48 @@
     font-size:15px ;
     color: grey;
 }
-@media screen and (max-width:430px){
-   
-   .info{
-        margin:5px 0px;
+@media screen and (max-width:1024px){
+    .info{
+        background-color: #ffffff;
+        margin: 10px 0px;
         border-radius: 5px;
-    }
-    .info-cover{
-        height: 170px;
+        padding-bottom: 22px;
     }
     .info-cover img:nth-child(1){
-        border-radius: 5px;
+        border-radius:5px;
+    }
+}
+@media screen and (max-width:768px){
+    .info{
+        margin:5px 0px;
+        border-radius:5px;
+    }
+    .info-cover img:nth-child(1){
+        border-radius:5px;
+    }
+    
+}
+
+@media screen and (max-width:430px){
+   .info{
+        margin:5px 0px;
+        border-radius: 0px;
+        min-height:100px ;
+    }
+    .info-cover{
+        height: 140px;
+    }
+    .info-cover img:nth-child(1){
+        border-radius:0;
     }
     .info svg:nth-child(2){
         top: 200px;
         left: 60%;
     }
     .info-cover img:nth-child(2){
-        width: 130px;
-        height:130px;
-        top: 170px;
+        width: 110px;
+        height:110px;
+        top: 140px;
     }
     .info-cover svg{
         top: 18px;
@@ -191,11 +213,11 @@
         font-size: 28px;
     }
     .info-follow h1{
-        padding-top: 73px;
-        font-size: 25px;
+        padding-top: 55px;
+        font-size: 20px;
     }
     .info-follow p{
-        font-size: 13px;
+        font-size: 12px;
     }
     .info-follow{
         min-height: 50%;
@@ -207,23 +229,26 @@
     }
     .logout{
         position: absolute;
-        top: 180px;
-        left: 10px;
+        top: 145px;
+        left: 5px;
         display: flex;
         gap: 8px;
         align-items: center;
-        font-size: 13px;
+        font-size: 11px;
         background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
         color: #fff;
         padding: 5px 10px;
         border-radius: 10px;
     }
     .logout svg{
-        font-size: 19px;
+        font-size: 18px;
     }
     .info-follow button{
+        position: absolute;
+        top: 145px;
+        right: 5px;
         padding: 8px 5px;
-        font-size: 13px;
+        font-size: 11px;
         border-radius: 10px;
         cursor: pointer;
         border: none;
@@ -232,11 +257,14 @@
     
     }
     .info-follow button svg{
-        font-size: 19px;
+        font-size: 18px;
     }
     .info-details{
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+    .info-details-list svg{
+        font-size:22px;
     }
     .info-col-1{
         width: 100%;
@@ -253,7 +281,7 @@
         flex-direction: column;
     }
     .info-details-list span{
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
     }
     .info-col-2{
@@ -261,10 +289,9 @@
         background-color:#eeecec;
         display: flex;
         justify-content: space-between;
-        margin-top: 10px;
+        margin-top: 0px;
         padding: 10px 20px;
         border-radius: 10px;
-
     }
     .info-col-2 div{
         display: flex;
@@ -275,18 +302,18 @@
     }
     .info-col-2 div h2{
         font-weight: 500;
-        font-size: 18px;
+        font-size: 15px;
     }
     .info-col-2 div span{
         font-size:14px ;
         color: grey;
     }
     .profileDiv{
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
         background-color: #fff;
         position:absolute;
-        top: 215px;
+        top: 165px;
         left: 62%;
         transform: translate(-50%,-50%);
         cursor: pointer;
@@ -296,15 +323,14 @@
         border-radius: 50%;
     }
     .profileDiv svg{
-        font-size: 22px;
+        font-size: 19px;
     }
     .coverDiv{
-        width: 30px;
-        height: 30px;
-        font-size: 30px;
+        width: 28px;
+        height: 28px;
         background-color:#fff;
         position: absolute;
-        top: 20px;
+        top: 18px;
         right: -10px;
         transform: translate(-50%,-50%); 
         cursor: pointer;
@@ -314,29 +340,7 @@
         border-radius: 50%;
     }
     .coverDiv svg{
-        font-size: 22px;
-    }
-    
-}
-@media screen and (max-width:768px){
-    .info{
-        margin:5px 0px;
-        border-radius:5px;
-    }
-    .info-cover img:nth-child(1){
-        border-radius:5px;
-    }
-    
-}
-@media screen and (max-width:1024px){
-    .info{
-        background-color: #ffffff;
-        margin: 10px 0px;
-        border-radius: 5px;
-        padding-bottom: 22px;
-    }
-    .info-cover img:nth-child(1){
-        border-radius:5px;
+        font-size: 19px;
     }
     
 }

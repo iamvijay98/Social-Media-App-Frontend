@@ -390,6 +390,8 @@ a:active {
         padding: 15px 0px 5px 0px;
         margin-bottom: 35px;
         margin-top: -20px;
+        
+        border-radius: 0px;
         background-color: rgb(255, 255, 255);
     }
     .post .post-img{
@@ -397,12 +399,10 @@ a:active {
         border-radius: 0px;
     }
     .post-footer{
-        margin:8px 8px;
+        margin:0px 8px;
         background-color:rgb(255, 255, 255);
     }
-    .body{
-        margin: 0px 8px;
-    }
+    
     .like-comment-details{
         margin-top: 10px;
         color: grey;
@@ -420,8 +420,8 @@ a:active {
         font-size: 15px;
     }
     .post .body{
-        margin-bottom: 15px;
-        font-size: 15px;
+        margin:0px 8px 15px 8px;
+        font-size: 13px;
         line-height: 25px;
         padding: 0px 5px;
     }

@@ -63,9 +63,10 @@
 }
 @media screen and (max-width:1024px){
     .following-comp{
-        padding: 10px 8px 10px 8px;
+        padding: 0px 20px;
         border-radius: 10px;
         margin-top: 5px;
+        background-color: rgb(255, 255, 255);
     }
     .following-people{
         margin-bottom: 20px;

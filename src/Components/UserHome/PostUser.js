@@ -25,7 +25,6 @@ import img1 from "../../assets/Following/img-2.jpg"
 import img2 from  "../../assets/Following/img-3.jpg"
 import img3 from  "../../assets/Following/img-4.jpg"
 
-import Profile from "../../assets/profile.jpg"
 
 import { useState } from 'react';
 import Comments from '../Comments/Comments';
@@ -137,7 +136,7 @@ const handleDelete=(id)=>{
          <button><MdReportGmailerrorred />Report post</button>
          </div>
          )}
-          <MoreVertRoundedIcon style={{fontSize:"34px",cursor:"pointer"}} onClick={()=>setShowDelete(!showDelete)}/>
+          <MoreVertRoundedIcon className='post-vertical-icon' onClick={()=>setShowDelete(!showDelete)}/>
          </div>
        </div>
        {

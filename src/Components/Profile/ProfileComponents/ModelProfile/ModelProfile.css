@@ -1,7 +1,6 @@
 .modelForm{
     margin-top: 20px;
 }
-
 .row1{
     width: 100%;
     display: grid;
@@ -49,5 +48,19 @@
         grid-template-columns: 1fr;
         gap: 0px;
     }
+    .modelForm .inputBox1{
+        height: 40px;
+    }
+    .modelBtn{
+        font-size: 14px;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        background-color: orangered;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+    
+
     
 }
