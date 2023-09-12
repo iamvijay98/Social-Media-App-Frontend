@@ -20,6 +20,8 @@
     width: 45px;
     height: 45px;
     border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
 }
 .following-comp h2{
     font-size: 16px;
