@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Social-Media-App-Frontend/static/css/main.e156ab9c.css",
-    "main.js": "/Social-Media-App-Frontend/static/js/main.75a45ba9.js",
+    "main.css": "/Social-Media-App-Frontend/static/css/main.bf048695.css",
+    "main.js": "/Social-Media-App-Frontend/static/js/main.a9c13cfc.js",
+    "static/media/img-2.jpg": "/Social-Media-App-Frontend/static/media/img-2.de861c402dc755f78e75.jpg",
     "static/media/img2.jpg": "/Social-Media-App-Frontend/static/media/img2.194978cd21d26c5db18a.jpg",
     "static/media/img-3.jpg": "/Social-Media-App-Frontend/static/media/img-3.98e9a250fa95a7e28b1f.jpg",
     "static/media/img3.jpg": "/Social-Media-App-Frontend/static/media/img3.bbbf293919def825d407.jpg",
+    "static/media/img-1.jpg": "/Social-Media-App-Frontend/static/media/img-1.ddd89f0877545b559e14.jpg",
     "static/media/img1.jpg": "/Social-Media-App-Frontend/static/media/img1.8179f7e27b4b616d0c56.jpg",
     "static/media/img5.jpg": "/Social-Media-App-Frontend/static/media/img5.801551ad8d5dda410649.jpg",
     "static/media/cover-3.jpg": "/Social-Media-App-Frontend/static/media/cover-3.d9dfa718fe2beca0e570.jpg",
-    "static/media/img-1.jpg": "/Social-Media-App-Frontend/static/media/img-1.ddd89f0877545b559e14.jpg",
     "static/media/cover-1.jpg": "/Social-Media-App-Frontend/static/media/cover-1.625dbb587c5585274b54.jpg",
     "static/media/cover-7.jpg": "/Social-Media-App-Frontend/static/media/cover-7.2907b8a7e4ac82415c7e.jpg",
     "static/media/img-5.jpg": "/Social-Media-App-Frontend/static/media/img-5.265b1590d8b77020c9db.jpg",
@@ -17,16 +18,15 @@
     "static/media/cover-2.jpg": "/Social-Media-App-Frontend/static/media/cover-2.17d974e2832a5ad86fa5.jpg",
     "static/media/cover-8.jpg": "/Social-Media-App-Frontend/static/media/cover-8.2225d989065c51858a28.jpg",
     "static/media/img-4.jpg": "/Social-Media-App-Frontend/static/media/img-4.27a2e1cebd3637af6ad2.jpg",
-    "static/media/img-2.jpg": "/Social-Media-App-Frontend/static/media/img-2.de861c402dc755f78e75.jpg",
     "static/media/profile.jpg": "/Social-Media-App-Frontend/static/media/profile.37c00bd17fbdfc287685.jpg",
     "static/media/cover-5.jpg": "/Social-Media-App-Frontend/static/media/cover-5.d085be4493f13ba46b93.jpg",
     "static/media/cover-9.jpg": "/Social-Media-App-Frontend/static/media/cover-9.1f60a4eaee3cf9652edf.jpg",
     "index.html": "/Social-Media-App-Frontend/index.html",
-    "main.e156ab9c.css.map": "/Social-Media-App-Frontend/static/css/main.e156ab9c.css.map",
-    "main.75a45ba9.js.map": "/Social-Media-App-Frontend/static/js/main.75a45ba9.js.map"
+    "main.bf048695.css.map": "/Social-Media-App-Frontend/static/css/main.bf048695.css.map",
+    "main.a9c13cfc.js.map": "/Social-Media-App-Frontend/static/js/main.a9c13cfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e156ab9c.css",
-    "static/js/main.75a45ba9.js"
+    "static/css/main.bf048695.css",
+    "static/js/main.a9c13cfc.js"
   ]
 }
