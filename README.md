@@ -20,7 +20,10 @@
 * Profile View
 * Search similar people with the same Profile Tag
 * Suggestion Listing to Explore
-* Add Bio and Edit DP
+* Add Bio
+* Edit Bio
+* Change Profile Picture
+* Change Cover Picture
   
 **Post✉️:**
 
@@ -28,8 +31,9 @@
 * Like
 * Comment with text
 * Recommend post
-* Edit Post / Delete Post
-* 
+* Delete Post
+* Post with image
+  
 **Formats➿:**
 
 * Time Formats in Hours for each component
