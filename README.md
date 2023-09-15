@@ -6,7 +6,7 @@
 
 * Javascript
      - React js
-* Css3
+* CSS3
   
 # Features🗒:
 
