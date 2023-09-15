@@ -20,6 +20,7 @@
 * Profile View
 * Search similar people with the same Profile Tag
 * Suggestion Listing to Explore
+* Notification
 * Add Bio
 * Edit Bio
 * Change Profile Picture
@@ -41,6 +42,7 @@
 # Screenshots💻:
 
 ![img-1](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/234d9200-7734-4278-a09d-93e3e090887e)
+
 ![img-2](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/8156393f-2bc3-43b2-9c03-4318427f84d6)
 ![img-3](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/20f294d7-ebed-41dc-a6d2-d4f5aab8f7ff)
 ![img-4](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/d149ad69-7597-4bce-ba0c-72891ebf9de3)
