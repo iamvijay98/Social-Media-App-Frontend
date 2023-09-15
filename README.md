@@ -39,7 +39,7 @@
 
 * Time Formats in Hours for each component
 
-# Responsive Design:
+## Responsive Design:
 
 * Ensuring that the app is responsive on various devices and screen sizes is crucial.
 * React components can be designed to adapt and reflow content to provide an optimal user experience on both desktop and mobile devices.
