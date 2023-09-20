@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Social-Media-App-Frontend/static/css/main.bf048695.css",
-    "main.js": "/Social-Media-App-Frontend/static/js/main.3ebcbd91.js",
+    "main.css": "/Social-Media-App-Frontend/static/css/main.42924a3b.css",
+    "main.js": "/Social-Media-App-Frontend/static/js/main.d60d77c1.js",
     "static/media/img-2.jpg": "/Social-Media-App-Frontend/static/media/img-2.de861c402dc755f78e75.jpg",
     "static/media/img2.jpg": "/Social-Media-App-Frontend/static/media/img2.194978cd21d26c5db18a.jpg",
     "static/media/img-3.jpg": "/Social-Media-App-Frontend/static/media/img-3.ba202fb67be94543a1cf.jpg",
@@ -22,11 +22,11 @@
     "static/media/cover-5.jpg": "/Social-Media-App-Frontend/static/media/cover-5.d085be4493f13ba46b93.jpg",
     "static/media/cover-9.jpg": "/Social-Media-App-Frontend/static/media/cover-9.1f60a4eaee3cf9652edf.jpg",
     "index.html": "/Social-Media-App-Frontend/index.html",
-    "main.bf048695.css.map": "/Social-Media-App-Frontend/static/css/main.bf048695.css.map",
-    "main.3ebcbd91.js.map": "/Social-Media-App-Frontend/static/js/main.3ebcbd91.js.map"
+    "main.42924a3b.css.map": "/Social-Media-App-Frontend/static/css/main.42924a3b.css.map",
+    "main.d60d77c1.js.map": "/Social-Media-App-Frontend/static/js/main.d60d77c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf048695.css",
-    "static/js/main.3ebcbd91.js"
+    "static/css/main.42924a3b.css",
+    "static/js/main.d60d77c1.js"
   ]
 }
