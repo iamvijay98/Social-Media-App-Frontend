@@ -9,10 +9,12 @@ import {RiFileListLine} from "react-icons/ri"
 import {FiSettings} from "react-icons/fi"
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
-import profilePicture from "../../assets/profile.jpg"
+import Profile from "../../assets/profile.jpg"
 
 
-const Left = () => {
+const Left = ({profileImg,
+               modelDetails
+              }) => {
 
   const [btnActive,setBtnActive] =useState("#")
   const [logOutExit,setLogOutExit] =useState(false)
@@ -62,10 +64,10 @@ const Left = () => {
       <div className="left-user">
         <Link to="/profile" style={{textDecoration:"none",color:"black"}}>
           <div className="user-name-userid">
-            <img src={profilePicture} alt="" />
+            <img src={profileImg ? (profileImg) : Profile} alt="" />
               <div className='L-user'>
-                <h1>Vijay</h1>
-                <span>@vijay98</span>
+                <h1>{modelDetails ? (modelDetails.ModelName) : "Vijay"}</h1>
+                <span>{modelDetails ? (modelDetails.ModelUserName) : "@vijay98"}</span>
             </div>
           </div>
         </Link>

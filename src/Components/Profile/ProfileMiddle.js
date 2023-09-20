@@ -11,7 +11,18 @@ import "../Profile/ProfileMiddle.css"
 import moment from 'moment'
 import ProfileInputPost from './ProfileComponents/ProfileInputPost'
 
-const ProfileMiddle = ({following,search,images,setImages}) => {
+const ProfileMiddle = ({following,
+                        search,
+                        images,
+                        setImages,
+                        profileImg,
+                        setProfileImg,
+                        name,
+                        setName,
+                        userName,
+                        setUserName,
+                        modelDetails,
+                        setModelDetails}) => {
 
   const [userPostData ,setUserPostData] =useState(
     [
@@ -94,16 +105,9 @@ const ProfileMiddle = ({following,search,images,setImages}) => {
        
     },[userPostData,search])
 
-    const [profileImg,setProfileImg] =useState(Profile)
+   
 
-    const [modelDetails,setModelDetails] = useState(
-      {
-        ModelName:"Vijay",
-        ModelUserName:"@Vijay98",
-        ModelCountryName:"India",
-        ModelJobName:"Web Developer in Google"
-      }
-    )
+    
 
   return (
     <div className='profileMiddle'>
@@ -114,6 +118,10 @@ const ProfileMiddle = ({following,search,images,setImages}) => {
         setProfileImg={setProfileImg}
         userPostData={userPostData}
         following={following}
+        name={name}
+        setName={setName}
+        userName={userName}
+        setUserName={setUserName}
         />
         
         <ProfileInputPost

@@ -1,7 +1,6 @@
 import React from 'react'
 import "../Navigation/Nav.css"
 import SearchIcon from '@mui/icons-material/Search';
-import Profile from "../../assets/profile.jpg"
 import { Link } from 'react-router-dom';
 
 import {AiOutlineHome} from "react-icons/ai"
@@ -9,7 +8,9 @@ import {LiaUserFriendsSolid} from "react-icons/lia"
 import {IoNotificationsOutline} from "react-icons/io5"
 import {TbMessage} from "react-icons/tb"
 
-const Nav = ({search,setSearch,showMenu,setShowMenu}) => {
+import Profile from "../../assets/profile.jpg"
+
+const Nav = ({search,setSearch,setShowMenu,profileImg}) => {
 
 
   
@@ -18,7 +19,7 @@ const Nav = ({search,setSearch,showMenu,setShowMenu}) => {
         <div className="n-logo">
             <Link to="/home" className='logo' style={{color:"black",textDecoration:"none"}}>
               <h1>Face <span>Gram</span></h1>
-              </Link>
+            </Link>
         </div>
 
       <div className="n-form-button" >
@@ -31,7 +32,6 @@ const Nav = ({search,setSearch,showMenu,setShowMenu}) => {
           value={search}
           onChange={(e)=>setSearch(e.target.value)}
           />
-
         </form>
       </div>
 
@@ -51,7 +51,7 @@ const Nav = ({search,setSearch,showMenu,setShowMenu}) => {
 
        <div className="n-profile" >
           <Link to="/profile"> 
-            <img src={Profile} className='n-img' style={{marginBottom:"-7px"}}/>
+            <img src={profileImg ? (profileImg) : Profile} className='n-img' style={{marginBottom:"-7px"}}/>
           </Link>
       </div>
   

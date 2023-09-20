@@ -13,7 +13,16 @@ import { useRef } from 'react';
 import ModelProfile from '../ModelProfile/ModelProfile';
 import { Link } from 'react-router-dom';
 
-const Info = ({userPostData,following,modelDetails,setModelDetails,profileImg,setProfileImg}) => {
+const Info = ({userPostData,
+              following,
+              modelDetails,
+              setModelDetails,
+              profileImg,
+              setProfileImg,
+              name,
+              setName,
+              userName,
+              setUserName}) => {
 
 
   const [coverImg,setCoverImg] =useState(Info3)
@@ -42,8 +51,6 @@ const Info = ({userPostData,following,modelDetails,setModelDetails,profileImg,se
 
   const [openEdit,setOpenEdit] =useState(false)
 
-  const [name,setName]= useState("")
-  const [userName,setUserName]= useState("")
   const [countryName,setCountryName]= useState("")
   const [jobName,setJobName]= useState("")
   

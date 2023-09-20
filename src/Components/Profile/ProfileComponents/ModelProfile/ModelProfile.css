@@ -28,15 +28,10 @@
     font-size: 16px;
     padding: 10px 20px;
     text-transform: capitalize;
-    background-color: orangered;
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
     color: #fff;
     border: none;
     border-radius: 5px;
-}
-.modelBtn:hover{
-    background-color: transparent;
-    border: 1px solid orangered;
-    color: black;
 }
 @media screen and (max-width:430px){
     .modelForm{
