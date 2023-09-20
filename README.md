@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ "FACE GRAM" is a Social media application which has all Basic features of Facebook, Twitter. "FACE GRAM" app is a dynamic web application that leverages the popular JavaScript library, React, to create an engaging and interactive user interface for social networking. Here's a detailed description of the front-end aspects of such an app.In this Application People can create a Post, Like, Share and Comment get a Social Media Kind-of Environment.
 
-## Available Scripts
+# Tech Stack💻:
 
-In the project directory, you can run:
+* Javascript
+     - React js
+* CSS3
+  
+# Features🗒:
 
-### `npm start`
+**Login📈:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Normal Sign up and Log-in page.
+  
+**Account🕴:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Follow, Unfollow
+* Profile View
+* Search similar people with the same Profile Tag
+* Suggestion Listing to Explore
+* Notification
+* Add Bio
+* Edit Bio
+* Change Profile Picture
+* Change Cover Picture
+  
+**Post✉️:**
 
-### `npm test`
+* Public Post
+* Like
+* Comment with text
+* Recommend post
+* Delete Post
+* Post with image
+  
+**Formats➿:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Time Formats in Hours for each component
 
-### `npm run build`
+## Responsive Design:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Ensuring that the app is responsive on various devices and screen sizes is crucial.
+* React components can be designed to adapt and reflow content to provide an optimal user experience on both desktop and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Navigation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Navigation within the app can be implemented using React Router or a custom routing solution. Users can switch between the news feed and their profiles.
 
-### `npm run eject`
+## User Experience:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* React's component-based architecture allows you to create a smooth user experience with interactive elements, animations, and transitions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Screenshots💻:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![img-1](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/234d9200-7734-4278-a09d-93e3e090887e)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![img-2](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/8156393f-2bc3-43b2-9c03-4318427f84d6)
 
-## Learn More
+![img-3](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/20f294d7-ebed-41dc-a6d2-d4f5aab8f7ff)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![img-4](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/d149ad69-7597-4bce-ba0c-72891ebf9de3)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![img-5](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/ca06d7d4-18a3-4746-913d-005a9a29a487)
 
-### Code Splitting
+![img-6](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/dcd2040e-52f2-4d2a-80da-01a4f3cdb0f7)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![img-7](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/ef4a131a-566c-4b78-8fab-e2cdce7b2dc6)
 
-### Analyzing the Bundle Size
+![img-8](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/4c73cc53-15c9-433b-be9b-939354915d24)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![img-9](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/aff1c2b7-29bf-4d87-86e9-1887c59d8f4a)
 
-### Making a Progressive Web App
+![img-10](https://github.com/iamvijay98/Social-Media-App-Frontend/assets/133564952/349dc3ca-f6e6-4c2d-9599-cb932e4ecb9e)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
